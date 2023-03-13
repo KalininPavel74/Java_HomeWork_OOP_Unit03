@@ -1,0 +1,103 @@
+2023.03.13 19:56:02 unit3.util.MyLog loggerInit	INFO  		
+
+------------------------------------------------------------
+
+2023.03.13 19:56:02 unit3.util.MyLog loggerInit	INFO  		Логирование инициализировано
+2023.03.13 19:56:02 unit3.Main main	INFO  Программа запущена.
+2023.03.13 19:56:02 unit3.view.ViewConsole <init>	INFO  Открыт слушатель консоли System.in
+2023.03.13 19:56:02 unit3.view.ViewConsole viewText	WARNING  Игра "Быки и Коровы"
+2023.03.13 19:56:02 unit3.view.ViewConsole viewText	WARNING  ------------------------------
+2023.03.13 19:56:02 unit3.view.ViewConsole getTypeOfSymbols	WARNING  Выберите тип символов: 
+2023.03.13 19:56:02 unit3.view.ViewConsole getTypeOfSymbols	WARNING  1) цифры
+2) русские буквы
+3) латинские буквы
+:
+2023.03.13 19:56:05 unit3.view.ViewConsole getTypeOfSymbols	INFO  Пользователь ввел 2
+2023.03.13 19:56:05 unit3.view.ViewConsole getTypeOfSymbols	INFO  Возвращается русские буквы
+2023.03.13 19:56:05 unit3.control.Game <init>	INFO  index=2; text=русские буквы; name=RUSSYMBOLS, ordinal=1
+2023.03.13 19:56:05 unit3.view.ViewConsole getLenQuestWord	WARNING  Введите длинну загадываемого слова. (русские буквы <=33)
+2023.03.13 19:56:09 unit3.view.ViewConsole getLenQuestWord	INFO  Пользователь ввел 2
+2023.03.13 19:56:09 unit3.view.ViewConsole getLenQuestWord	INFO  Возвращаю 2
+2023.03.13 19:56:09 unit3.model.ASymbols createQuestSymbols	INFO  Загадать слово длинной 2
+2023.03.13 19:56:09 unit3.model.ASymbols createQuestSymbols	INFO  n = 6 maxSymbols=33 lenQuestWord=2 wordPosition=2
+2023.03.13 19:56:09 unit3.model.ASymbols createQuestSymbols	INFO  word = Ё;  ;  questSymbols=0; 0; 0; 0; 0; 0; 1; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 
+2023.03.13 19:56:09 unit3.model.ASymbols createQuestSymbols	INFO  n = 11 maxSymbols=33 lenQuestWord=2 wordPosition=3
+2023.03.13 19:56:09 unit3.model.ASymbols createQuestSymbols	INFO  word = Ё; К;  questSymbols=0; 0; 0; 0; 0; 0; 1; 0; 0; 0; 0; 2; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 
+2023.03.13 19:56:09 unit3.model.ASymbols createQuestSymbols	INFO  Загаданное слово ЁК
+2023.03.13 19:56:09 unit3.view.ViewConsole viewText	WARNING  -------------------------------
+2023.03.13 19:56:09 unit3.view.ViewConsole viewText	WARNING  Загадано слово (русские буквы) XX
+2023.03.13 19:56:09 unit3.control.Game start	INFO  Игра началась ...
+2023.03.13 19:56:09 unit3.control.Game start	INFO  Всего попыток 100
+2023.03.13 19:56:09 unit3.control.Game start	WARNING  Попытка 1
+2023.03.13 19:56:09 unit3.view.ViewConsole getTrySymbols	WARNING  Введите слово: 
+2023.03.13 19:56:19 unit3.view.ViewConsole getTrySymbols	INFO  Пользователь ввел АБ
+2023.03.13 19:56:19 unit3.view.ViewConsole getTrySymbols	INFO  Возвращаю АБ
+2023.03.13 19:56:19 unit3.model.ASymbols getCowsAndBulls	INFO  Буду считать АБ
+2023.03.13 19:56:19 unit3.model.ASymbols getCowsAndBulls	INFO  Буду сравнивать АБ
+2023.03.13 19:56:19 unit3.model.ASymbols getCowsAndBulls	INFO  Возвращается 🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:19 unit3.view.ViewConsole viewText	WARNING  🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:19 unit3.control.Game start	WARNING  Попытка 2
+2023.03.13 19:56:19 unit3.view.ViewConsole getTrySymbols	WARNING  Введите слово: 
+2023.03.13 19:56:25 unit3.view.ViewConsole getTrySymbols	INFO  Пользователь ввел ВГ
+2023.03.13 19:56:25 unit3.view.ViewConsole getTrySymbols	INFO  Возвращаю ВГ
+2023.03.13 19:56:25 unit3.model.ASymbols getCowsAndBulls	INFO  Буду считать ВГ
+2023.03.13 19:56:25 unit3.model.ASymbols getCowsAndBulls	INFO  Буду сравнивать ВГ
+2023.03.13 19:56:25 unit3.model.ASymbols getCowsAndBulls	INFO  Возвращается 🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:25 unit3.view.ViewConsole viewText	WARNING  🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:25 unit3.control.Game start	WARNING  Попытка 3
+2023.03.13 19:56:25 unit3.view.ViewConsole getTrySymbols	WARNING  Введите слово: 
+2023.03.13 19:56:31 unit3.view.ViewConsole getTrySymbols	INFO  Пользователь ввел ДЕ
+2023.03.13 19:56:31 unit3.view.ViewConsole getTrySymbols	INFO  Возвращаю ДЕ
+2023.03.13 19:56:31 unit3.model.ASymbols getCowsAndBulls	INFO  Буду считать ДЕ
+2023.03.13 19:56:31 unit3.model.ASymbols getCowsAndBulls	INFO  Буду сравнивать ДЕ
+2023.03.13 19:56:31 unit3.model.ASymbols getCowsAndBulls	INFO  Возвращается 🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:31 unit3.view.ViewConsole viewText	WARNING  🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:31 unit3.control.Game start	WARNING  Попытка 4
+2023.03.13 19:56:31 unit3.view.ViewConsole getTrySymbols	WARNING  Введите слово: 
+2023.03.13 19:56:41 unit3.view.ViewConsole getTrySymbols	INFO  Пользователь ввел ЁЖ
+2023.03.13 19:56:41 unit3.view.ViewConsole getTrySymbols	INFO  Возвращаю ЁЖ
+2023.03.13 19:56:41 unit3.model.ASymbols getCowsAndBulls	INFO  Буду считать ЁЖ
+2023.03.13 19:56:41 unit3.model.ASymbols getCowsAndBulls	INFO  Буду сравнивать ЁЖ
+2023.03.13 19:56:41 unit3.model.ASymbols getCowsAndBulls	INFO  Возвращается 🐄 коровы = 0;  🐮 быки = 1
+2023.03.13 19:56:41 unit3.view.ViewConsole viewText	WARNING  🐄 коровы = 0;  🐮 быки = 1
+2023.03.13 19:56:41 unit3.control.Game start	WARNING  Попытка 5
+2023.03.13 19:56:41 unit3.view.ViewConsole getTrySymbols	WARNING  Введите слово: 
+2023.03.13 19:56:52 unit3.view.ViewConsole getTrySymbols	INFO  Пользователь ввел ЗИ
+2023.03.13 19:56:52 unit3.view.ViewConsole getTrySymbols	INFO  Возвращаю ЗИ
+2023.03.13 19:56:52 unit3.model.ASymbols getCowsAndBulls	INFO  Буду считать ЗИ
+2023.03.13 19:56:52 unit3.model.ASymbols getCowsAndBulls	INFO  Буду сравнивать ЗИ
+2023.03.13 19:56:52 unit3.model.ASymbols getCowsAndBulls	INFO  Возвращается 🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:52 unit3.view.ViewConsole viewText	WARNING  🐄 коровы = 0;  🐮 быки = 0
+2023.03.13 19:56:52 unit3.control.Game start	WARNING  Попытка 6
+2023.03.13 19:56:52 unit3.view.ViewConsole getTrySymbols	WARNING  Введите слово: 
+2023.03.13 19:57:08 unit3.view.ViewConsole getTrySymbols	INFO  Пользователь ввел ЙК
+2023.03.13 19:57:08 unit3.view.ViewConsole getTrySymbols	INFO  Возвращаю ЙК
+2023.03.13 19:57:08 unit3.model.ASymbols getCowsAndBulls	INFO  Буду считать ЙК
+2023.03.13 19:57:08 unit3.model.ASymbols getCowsAndBulls	INFO  Буду сравнивать ЙК
+2023.03.13 19:57:08 unit3.model.ASymbols getCowsAndBulls	INFO  Возвращается 🐄 коровы = 0;  🐮 быки = 1
+2023.03.13 19:57:08 unit3.view.ViewConsole viewText	WARNING  🐄 коровы = 0;  🐮 быки = 1
+2023.03.13 19:57:08 unit3.control.Game start	WARNING  Попытка 7
+2023.03.13 19:57:08 unit3.view.ViewConsole getTrySymbols	WARNING  Введите слово: 
+2023.03.13 19:57:32 unit3.view.ViewConsole getTrySymbols	INFO  Пользователь ввел ЁК
+2023.03.13 19:57:32 unit3.view.ViewConsole getTrySymbols	INFO  Возвращаю ЁК
+2023.03.13 19:57:32 unit3.model.ASymbols getCowsAndBulls	INFO  Буду считать ЁК
+2023.03.13 19:57:32 unit3.model.ASymbols getCowsAndBulls	INFO  Буду сравнивать ЁК
+2023.03.13 19:57:32 unit3.model.ASymbols getCowsAndBulls	INFO  Возвращается 🐄 коровы = 0;  🐮 быки = 2
+2023.03.13 19:57:32 unit3.view.ViewConsole viewText	WARNING  🐄 коровы = 0;  🐮 быки = 2
+2023.03.13 19:57:32 unit3.view.ViewConsole viewText	WARNING  🏆 Победа на попытке 7
+2023.03.13 19:57:32 unit3.view.ViewConsole viewText	WARNING  Загаднное слово: ---"ЁК"---
+2023.03.13 19:57:32 unit3.view.ViewConsole getSymbol	WARNING  
+Вывести историю ходов? (да-Д,Y; нет-Н,N):
+2023.03.13 19:57:50 unit3.view.ViewConsole getSymbol	INFO  Пользователь ввел Д
+2023.03.13 19:57:50 unit3.view.ViewConsole getSymbol	INFO  Возвращаю Д
+2023.03.13 19:57:50 unit3.view.ViewConsole viewText	WARNING  История ходов:
+Попытка 1 - АБ - 🐄 коровы = 0;  🐮 быки = 0
+Попытка 2 - ВГ - 🐄 коровы = 0;  🐮 быки = 0
+Попытка 3 - ДЕ - 🐄 коровы = 0;  🐮 быки = 0
+Попытка 4 - ЁЖ - 🐄 коровы = 0;  🐮 быки = 1
+Попытка 5 - ЗИ - 🐄 коровы = 0;  🐮 быки = 0
+Попытка 6 - ЙК - 🐄 коровы = 0;  🐮 быки = 1
+Попытка 7 - ЁК - 🐄 коровы = 0;  🐮 быки = 2
+
+2023.03.13 19:57:50 unit3.view.ViewConsole close	INFO  Перед закрытием консоли System.in
+2023.03.13 19:57:50 unit3.Main main	INFO  Программа завершена.
